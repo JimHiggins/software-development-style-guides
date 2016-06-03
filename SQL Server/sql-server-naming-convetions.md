@@ -53,7 +53,7 @@ Name foreign keys a combination of the referencing table and `id`. In the name o
 
 _Example: `PersonId`_
 
-Exceptions to this rule might include multiple columns that reference the same table. For example, one might have columns that record a project start and end date. In this example, both date columns reference a date dimension table. Generally speaking name these columns as a combination of a description and `id`. This will describe the data data stored, and indicate it is a key field.
+Exceptions to this rule might include multiple columns that reference the same table. For example, one might have columns that record a project start and end date. In this example, both date columns reference a date dimension table. Generally speaking name these columns as a combination of a description and `id`. This will describe the data stored, and indicate it is a key field.
 
 _Example: `StartDateId` and `EndDateId`
 
@@ -90,7 +90,7 @@ This is where the key naming convention is useful. If you have an `Order` table 
 
 Name stored procedures and user defined functions with an object verb combination, separated by an underscore. A good argument can be made to use the PowerShell verb noun combination. But a object verb combination help group procedures and UDFs to related objects.
 
-_Example: `Customer_Insert`, `Custoemr_GetAll`
+_Example: `Customer_Insert`, `Customer_GetAll`
 
 
 
